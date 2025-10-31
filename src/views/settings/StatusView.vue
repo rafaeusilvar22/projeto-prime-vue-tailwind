@@ -1,5 +1,15 @@
 <template>
   <div class="w-full mx-auto p-4 md:p-6">
+    <Button
+      rounded
+      variant="text"
+      label="Voltar"
+      severity="secondary"
+      aria-label="Voltar"
+      icon="pi pi-arrow-left"
+      class="block md:hidden! m-1"
+      @click="$router.push('/settings')"
+    />
     <div class="mb-6">
       <h2 class="text-2xl font-semibold mb-2">Status da conta</h2>
       <p class="text-surface-600 dark:text-surface-400">
