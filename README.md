@@ -1,48 +1,88 @@
-# project-prime-vue-v4
+# ⚙️ Configurações App — Vue + PrimeVue + Tailwind
+Aplicação desenvolvida consiste em uma tela de configurações inspirada em apps modernos, contendo menu lateral, subrotas, tema claro/escuro, uso de PrimeVue, Tailwind e gerenciamento assíncrono usando Vue Query.
 
-This template should help get you started developing with Vue 3 in Vite.
+---
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## 📥 Instalação e dependências
+git clone [https://github.com/SEU-USUARIO/NOME-REPO.git](https://github.com/rafaeusilvar22/projeto-prime-vue-tailwind.git)
+cd NOME-REPO
 npm install
-```
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
+## 🚀 Como rodar
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
+---
 
-```sh
+## 📦 Build
 npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
+---
 
-```sh
-npm run lint
-```
+## 🏗️ Tecnologias utilizadas
+| Tecnologia                         | Uso                                            |
+| ---------------------------------- | ---------------------------------------------- |
+| Vue 3 + Vite                       | Framework principal                            |
+| TypeScript                         | Tipagem estática                               |
+| Tailwind CSS                       | Estilização utilitária                         |
+| PrimeVue + PrimeIcons + Aura Theme | Componentes UI                                 |
+| Vue Router                         | Rotas + layouts aninhados                      |
+| Pinia                              | State management global                        |
+| TanStack Query                     | Gerenciamento reativo de requisições           |
+| Storybook                          | Documentação de componentes (component-driven) |
+
+---
+
+## 📂 Estrutura de Pastas
+| Pasta             | Função                                    |
+| ----------------- | ----------------------------------------- |
+| `src/components`  | Componentes reutilizáveis                 |
+| `src/layouts`     | Layouts estruturais (Main e Settings)     |
+| `src/router`      | Configuração de rotas e navegação         |
+| `src/views`       | Páginas da aplicação                      |
+| `src/composables` | Hooks reutilizáveis (`useDarkMode`, etc.) |
+| `src/services`    | Consumo de API / camadas de integração    |
+| `public/`         | Assets estáticos                          |
+
+
+---
+
+## 🎯 Requisitos atendidos
+| Item                                     | Status                                    |
+| ---------------------------------------- | ----------------------------------------- |
+| Vue 3 + TS configurado                   | ✅                                         |
+| PrimeVue e Tailwind                      | ✅                                         |
+| Tema light/dark                          | ✅                                         |
+| Rotas com layout e subrotas              | ✅                                         |
+| Menu responsivo com comportamento mobile | ✅                                         |
+| TanStack Query                           | ✅                                         |
+| Modal de Logout                          | ✅                                         |
+| Storybook                                | 🔄 *(pendente — você irá instalar agora)* |
+
+---
+
+## 🗂️ Decisões técnicas
+- Pinia como store pela simplicidade com Vue 3
+- TanStack Query para dados reativos simulados
+- Composables para lógica desacoplada
+- Layouts para manter navbar/sidebars consistentes
+
+---
+
+
+## 📱 Responsividade
+- Layout fluido e responsivo
+- No mobile, menu abre isolado e possui botão de voltar, conforme UX do desafio
+
+---
+
+## 📝 Considerações finais
+Projeto desenvolvido com foco em arquitetura, organização e experiência moderna.
+Foram seguidas boas práticas de Vue 3, Composables, rotas aninhadas e componentes desacoplados.
+
+---
+
+# 👤 Autor
+Rafael Silva
+Desenvolvedor FullStack | Vue.js | Quasar | PrimeVue | Node
